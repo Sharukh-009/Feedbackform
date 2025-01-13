@@ -16,7 +16,32 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+@media (max-width: 768px) {
+    .form-container {
+        padding: 4%;
+    }
+}
 
+@media (max-width: 480px) {
+    .form-container {
+        padding: 3%;
+    }
+
+    .form-group label {
+        font-size: 0.9rem;
+    }
+
+    .form-group input, 
+    .form-group textarea {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .form-group button {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
 .form-container h2 {
     text-align: center;
     margin: 0 0 20px 0;
